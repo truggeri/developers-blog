@@ -41,7 +41,7 @@
                 Navigation
                 {% for nav in site.navigation %}
                     {% if nav.link %}
-                        <div><a href="{{ nav.link }}">{{ nav.name }}</a></div>
+                        <div><a href="{{ nav.link | relative_url }}">{{ nav.name }}</a></div>
                     {% else %}
                         <div><a href="#">{{ nav.name }}</a></div>
                     {% endif %}
