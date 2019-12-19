@@ -1,11 +1,13 @@
 ---
-layout: page
+layout: default
 title: About Me
 permalink: /about/ 
 ---
 
+# About Me
+
 Hey there. I'm a software developer in Charleston, South Carolina. You've made it to my developer blog, where I write
-articles about things I've learned and record information find useful or interesting.
+articles about things I've learned and record information I find useful or interesting.
 
 ## What is this blog?
 
