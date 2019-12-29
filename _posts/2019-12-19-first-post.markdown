@@ -27,7 +27,7 @@ followed until I landed on Jekyll. I found this concept interesting for a few re
 
 A static site doesn't have the runtime dependencies that a "dynamic" one would - such as the Ruby, .NET or node runtime.
 While it does build, a static site won't be subject to nearly the number of runtime errors, logs
-and statistics that traditional apps. In software, as is also the case in much of life, simpler is better.
+and statistics that traditional apps are. In software, as is also the case in much of life, simpler is better.
 
 ### 2. Deploying static sites is easy
 
