@@ -31,6 +31,8 @@ navigation:
     link: "/"
   - name: About Me
     link: "/about"
+  - name: Resume
+    link: "/resume"
 
 # Build settings
 theme: jekyll-theme-architect
