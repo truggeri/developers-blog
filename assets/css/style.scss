@@ -7,19 +7,50 @@
 
 $ubuntu-font: 'Ubuntu', sans-serif;
 
+$color-primary: #c00c;
+$color-primary-light: #c00;
+$color-primary-dark: #900;
+$color-secondary-light: #ccc;
+
+// light blue  #9ddcff
+// dark blue   #2879d0
+
+a {
+  color: $color-primary;
+}
+a:hover {
+  color: $color-primary-dark;
+}
+
 body {
   font-family: $ubuntu-font;
 }
 
 header {
+  // Chevron pattern - https://codepen.io/mmckinnon/pen/LJnzG
+  background: 
+    linear-gradient(-33deg, rgba(255,255,255,0.001) 30.5%, rgba(255,255,255,0.5) 31.5%, rgba(255,255,255,0.5) 32.5%, rgba(255,255,255,0.001) 33.5%),
+    linear-gradient(33deg, rgba(255,255,255,0.001) 30.5%, rgba(255,255,255,0.5) 31.5%, rgba(255,255,255,0.5) 32.5%,
+  rgba(255,255,255,0.001) 33.5%);
+  background-size: 45px 16px;
+  background-color: $color-primary;
+  border-color: $color-primary-dark;
   font-family: $ubuntu-font;
 
   a.button {
     font-family: $ubuntu-font;
   }
 
+  a.button:hover {
+    color: $color-secondary-light;
+  }
+
   h1 {
     font-size: 64px;
+  }
+
+  h2 {
+    color: $color-secondary-light;
   }
 }
 
@@ -28,8 +59,12 @@ header {
     font-family: $ubuntu-font;
   }
 
+  h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+    color: $color-primary;
+  }
+
   .tag-name {
-    border: 1px solid #9ddcff;
+    border: 1px solid $color-primary-light;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -44,7 +79,7 @@ aside nav {
   margin-bottom: 16px;
 
   div {
-    border: 1px solid #9ddcff;
+    border: 1px solid $color-primary-light;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -54,13 +89,13 @@ aside nav {
     margin: 8px;
 
     a {
-      color: #2879d0;
+      color: $color-primary-dark;
       display: block;
     }
   }
 
   div:hover {
-    background-color: #2879d0;
+    background-color: $color-primary-dark;
 
     a {
       color: white;
