@@ -54,6 +54,13 @@ header {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  header a.button {
+    background-color: white;
+    color: $color-primary;
+  }
+}
+
 #main-content {
   h1, h2, h3, h4, h5, h6 {
     font-family: $ubuntu-font;
