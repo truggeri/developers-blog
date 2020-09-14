@@ -19,7 +19,9 @@ My goals is to show off more work and make things more operational. I have a hab
 
 And with that, hello world.
 
-<hello-world></hello-world>
+<div id="app">
+  <hello-world></hello-world>
+</div>
 
 ## How to add VueJS
 
@@ -48,3 +50,5 @@ I leared a lot about the structure of [`webpack.config.js`](https://webpack.js.o
 ## What comes next
 
 Add more components that do something with an API. Hopefully I can write a small app to host somewhere that can be interacted with via a component.
+
+{% include scripts.html %}
