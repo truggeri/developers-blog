@@ -6,6 +6,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
 
+gem "kramdown", ">= 2.3.0" # CVE-2020-14001
 gem "nokogiri", ">= 1.10.8" # CVE-2020-7595
 
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
