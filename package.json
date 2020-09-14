@@ -1,0 +1,38 @@
+{
+  "name": "developer-blog",
+  "version": "1.0.0",
+  "description": "A small developer blog",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "watch": "cross-env NODE_ENV=development webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truggeri/developer-blog.git"
+  },
+  "author": "Thomas Ruggeri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/truggeri/developer-blog/issues"
+  },
+  "homepage": "https://github.com/truggeri/developer-blog#readme",
+  "dependencies": {
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.4.1",
+    "node-sass": "^4.14.1",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "vue-loader": "^15.9.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
