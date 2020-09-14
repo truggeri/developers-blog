@@ -59,7 +59,7 @@ button {
 }
 
 .box {
-  width: 550px;
+  min-width: 300px;
   background-color: rgb(255, 255, 255);
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
