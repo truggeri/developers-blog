@@ -51,4 +51,4 @@ I leared a lot about the structure of [`webpack.config.js`](https://webpack.js.o
 
 Add more components that do something with an API. Hopefully I can write a small app to host somewhere that can be interacted with via a component.
 
-{% include scripts.html %}
+{% include vue-script.html %}

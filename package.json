@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/truggeri/developer-blog#readme",
   "dependencies": {
+    "svelte": "^3.31.0",
+    "svelte-loader": "^2.13.6",
     "vue": "^2.6.12"
   },
   "devDependencies": {
