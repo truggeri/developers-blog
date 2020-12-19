@@ -45,6 +45,8 @@ export default {
 
 ### Svelte
 
+{% raw %}
+
 ```html
 <script>
   import { fade } from 'svelte/transition';
@@ -54,13 +56,15 @@ export default {
 
 <section class="box">
   <div style="text-align: center;">
-    <div><button on:click={() => { show = !show; }\}>Hello</button></div>
+    <div><button on:click={() => { show = !show; }}>Hello</button></div>
     {#if show === true}
       <p transition:fade="{\{delay: 250, duration: 300}\}" style="text-align: center;">World</p>
     {/if}
   </div>
 </section>
 ```
+
+{% endraw %}
 
 You can see a very similar syntax for such simple components. Each have an "if" directive and a simple way to create click handlers. The transition fade is also very easy to add right in the markup.
 

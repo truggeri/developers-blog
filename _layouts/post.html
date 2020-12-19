@@ -3,11 +3,13 @@ layout: default
 ---
 
 {% for tag in page.tags %}
-    <div class="tag-name"># {{ tag }}</div>
+    <div class="tag-name">
+      <a href="/tags/{{ tag }}"># {{ tag }}</a>
+    </div>
 {% endfor %}
 <div>&nbsp;</div>
 
 <h1>{{ page.title }}</h1>
-<p>{{ page.date | date: "%B %-d %Y" }} - {{ page.author }}</p>
+<p class="page-subtext">{{ page.date | date: "%B %-d %Y" }} - {{ page.author }}</p>
 
 {{ content }}
