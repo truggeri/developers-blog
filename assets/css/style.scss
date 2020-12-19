@@ -17,10 +17,13 @@ $color-primary-light: #F44;
 $color-primary-dark: #f66;
 $color-secondary-light: #ccc;
 $color-dark: #12181b;
+$color-dark-light: #1a1f23;
+
+$transition-time: 250ms;
 
 a {
   color: $color-primary;
-  transition: 0.1s;
+  transition: $transition-time;
 }
 a:hover {
   color: $color-primary-dark;
@@ -78,6 +81,7 @@ aside#sidebar {
 
 #main-content {
   color: #aaa;
+  font-size: 1rem;
 
   h1, h2, h3, h4, h5, h6 {
     font-family: $ubuntu-font;
@@ -103,8 +107,12 @@ aside#sidebar {
     color: $color-primary;
   }
 
+  p.page-subtext {
+    font-size: 1.2rem;
+  }
+
   .tag-name {
-    background: #1a1f23;
+    background: $color-dark-light;
     border: 1px solid $color-primary-light;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -113,6 +121,15 @@ aside#sidebar {
     font-size: 14px;
     padding: 8px 8px;
     margin: 8px;
+    transition: $transition-time;
+  }
+
+  .tag-name:hover {
+    background: $color-primary-dark;  
+
+    a {
+      color: $color-dark-light;
+    }
   }
 }
 
@@ -134,7 +151,7 @@ aside nav {
       display: block;
     }
 
-    transition: .2s;
+    transition: $transition-time;
   }
 
   div:hover {
