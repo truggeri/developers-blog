@@ -1,3 +1,4 @@
+import ArticleList from './svelte-components/ArticleList.svelte';
 import HelloWorld from './svelte-components/HelloWorld.svelte';
 
 const helloWorldApp = new HelloWorld({
@@ -6,4 +7,9 @@ const helloWorldApp = new HelloWorld({
 	}
 });
 
-export default helloWorldApp;
+const articleList = new ArticleList({
+	target: document.getElementById("svelte_article_list"),
+	props: {
+	}
+});
+export { articleList, helloWorldApp };
