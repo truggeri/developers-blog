@@ -32,6 +32,7 @@ a:hover {
 body {
   background: $color-dark;
   font-family: $ubuntu-font;
+  text-rendering: optimizeLegibility;
 }
 
 #content-wrapper {
@@ -50,21 +51,23 @@ header {
   border-color: $color-ncs-primary-dark;
   font-family: $ubuntu-font;
 
-  a.button {
-    font-family: $ubuntu-font;
-  }
-
-  a.button:hover {
-    color: $color-secondary-light;
-  }
-
   h1 {
+    display: inline;
     font-size: 64px;
     color: #fee;
   }
 
+  h1:hover {
+    color: #f8e4e4;
+    transition: $transition-time;
+  }
+
   h2 {
     color: #cbb;
+  }
+
+  img {
+    margin-right: 16px;
   }
 }
 
@@ -82,7 +85,7 @@ aside#sidebar {
 #main-content {
   color: #aaa;
   font-size: 1rem;
-
+  
   h1, h2, h3, h4, h5, h6 {
     font-family: $ubuntu-font;
   }
@@ -105,6 +108,10 @@ aside#sidebar {
 
   h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
     color: $color-primary;
+  }
+
+  p {
+    line-height: 1.6rem;
   }
 
   p.page-subtext {
