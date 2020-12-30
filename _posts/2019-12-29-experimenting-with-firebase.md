@@ -4,7 +4,7 @@ title:  "Experimenting with Firebase"
 date:   2019-12-29 22:27:00 -0500
 author: Thomas Ruggeri
 categories: [post, interesting]
-tags: [front-end, nosql, cheap-hosting]
+tags: [front-end, nosql, cheap-hosting, javascript]
 ---
 
 As I've hinted in [a previous posts]({% post_url 2019-12-19-first-post %}), 

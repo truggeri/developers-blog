@@ -4,7 +4,7 @@ title:  "Adding Svelte"
 date:   2020-12-13 15:20:00 -0500
 author: Thomas Ruggeri
 categories: [post, update]
-tags: [front-end, svelte]
+tags: [front-end, svelte, javascript]
 ---
 
 Wait, wasn't the last post about Vue? How have we switched to Svelte already?!? Let me explain.

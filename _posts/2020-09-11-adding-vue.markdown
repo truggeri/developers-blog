@@ -4,7 +4,7 @@ title:  "Adding Vue"
 date:   2020-09-11 20:20:00 -0500
 author: Thomas Ruggeri
 categories: [post, update]
-tags: [front-end, vue]
+tags: [front-end, vue, javascript]
 ---
 
 It's been a while. I plan on writing more posts on all the things I've been up to in the last six months. One of them was finally experimenting with [VueJS](https://vuejs.org/). I'll cover my thoughts more in a future post.
