@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/truggeri/developer-blog#readme",
   "dependencies": {
-    "svelte": "^3.36.0",
+    "svelte": "^3.49.0",
     "svelte-loader": "^2.13.6",
     "vue": "^2.6.12"
   },
